@@ -10,7 +10,8 @@ export class userModel{
   image:string;
   email:string;
   password:string;
-  passwordHash:string;
+  birthDay:Date;
+  // passwordHash:string;
   audit:auditModel;
   roles:roleModel[];
   groups:groupModel[];
