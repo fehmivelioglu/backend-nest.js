@@ -7,6 +7,7 @@ export class userCreateDto{
     password:string;
     email:string;
     birthdate:Date;
+    image:string;
 }
 
 export class userLoginDto{
